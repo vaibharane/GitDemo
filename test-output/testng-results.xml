@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-25T18:49:04Z" name="Suite" finished-at="2023-06-25T18:49:04Z" duration-ms="127">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestA.demoA(java.lang.String, java.lang.String)[pri:0, instance:com.Api.Api.TestA@4278284b]" name="demoA" class="com.Api.Api.TestA"/>
+        <method signature="TestA.demoC()[pri:0, instance:com.Api.Api.TestA@4278284b]" name="demoC" class="com.Api.Api.TestA"/>
+        <method signature="TestB.demo5()[pri:0, instance:com.Api.Api.TestB@9573584]" name="demo5" class="com.Api.Api.TestB"/>
+        <method signature="TestB.demo7()[pri:0, instance:com.Api.Api.TestB@9573584]" name="demo7" class="com.Api.Api.TestB"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-06-25T18:49:04Z" name="TestX" finished-at="2023-06-25T18:49:04Z" duration-ms="49">
+      <class name="com.Api.Api.TestB">
+        <test-method signature="demo5()[pri:0, instance:com.Api.Api.TestB@9573584]" started-at="2023-06-25T18:49:04Z" name="demo5" finished-at="2023-06-25T18:49:04Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+        <test-method signature="demo6()[pri:0, instance:com.Api.Api.TestB@9573584]" started-at="2023-06-25T18:49:04Z" name="demo6" finished-at="2023-06-25T18:49:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+        <test-method signature="demo7()[pri:0, instance:com.Api.Api.TestB@9573584]" started-at="2023-06-25T18:49:04Z" name="demo7" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo7 -->
+        <test-method signature="demo8()[pri:0, instance:com.Api.Api.TestB@9573584]" started-at="2023-06-25T18:49:04Z" name="demo8" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo8 -->
+      </class> <!-- com.Api.Api.TestB -->
+      <class name="com.Api.Api.TestA">
+        <test-method signature="demoA(java.lang.String, java.lang.String)[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoA" finished-at="2023-06-25T18:49:04Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeDriver]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoA -->
+        <test-method signature="demoB()[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoB" finished-at="2023-06-25T18:49:04Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoB -->
+        <test-method signature="demoC()[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoC" finished-at="2023-06-25T18:49:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoC -->
+        <test-method signature="demoD(java.lang.String, java.lang.String)[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoD" data-provider="getData" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoD -->
+        <test-method signature="demoD(java.lang.String, java.lang.String)[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoD" data-provider="getData" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoD -->
+        <test-method signature="demoD(java.lang.String, java.lang.String)[pri:0, instance:com.Api.Api.TestA@4278284b]" started-at="2023-06-25T18:49:04Z" name="demoD" data-provider="getData" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoD -->
+      </class> <!-- com.Api.Api.TestA -->
+    </test> <!-- TestX -->
+    <test started-at="2023-06-25T18:49:04Z" name="TestY" finished-at="2023-06-25T18:49:04Z" duration-ms="8">
+      <class name="com.Api.Api.TestD">
+        <test-method signature="practiceC(java.lang.String)[pri:0, instance:com.Api.Api.TestD@56c4278e]" started-at="2023-06-25T18:49:04Z" name="practiceC" finished-at="2023-06-25T18:49:04Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GeckoDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceC -->
+        <test-method signature="practiceD()[pri:0, instance:com.Api.Api.TestD@56c4278e]" started-at="2023-06-25T18:49:04Z" name="practiceD" finished-at="2023-06-25T18:49:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceD -->
+      </class> <!-- com.Api.Api.TestD -->
+      <class name="com.Api.Api.TestC">
+        <test-method signature="PracticeA()[pri:0, instance:com.Api.Api.TestC@20f5281c]" started-at="2023-06-25T18:49:04Z" name="PracticeA" finished-at="2023-06-25T18:49:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeA -->
+        <test-method signature="PracticeB()[pri:0, instance:com.Api.Api.TestC@20f5281c]" started-at="2023-06-25T18:49:04Z" name="PracticeB" finished-at="2023-06-25T18:49:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeB -->
+      </class> <!-- com.Api.Api.TestC -->
+    </test> <!-- TestY -->
+  </suite> <!-- Suite -->
+</testng-results>

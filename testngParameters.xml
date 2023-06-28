@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+                    
+<listeners>       <!--PackageName.ClassName -->
+<listener class-name="com.Api.Api.Listeners"/>   
+</listeners>         
+                     <!-- 2 classes will run parallely-->
+  <test name="TestX" parallel="classes" thread-count="2">
+  <parameter name="browser" value="ChromeDriver"/>
+  <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.Api.Api.TestA"/>
+      <class name="com.Api.Api.TestB"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestY">
+   <parameter name="browser" value="GeckoDriver"/>
+    <classes>
+      <class name="com.Api.Api.TestC"/>
+      <class name="com.Api.Api.TestD"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

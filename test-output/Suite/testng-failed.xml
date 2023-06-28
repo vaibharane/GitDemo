@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestX(failed)">
+    <parameter name="browser" value="ChromeDriver"/>
+    <classes>
+      <class name="com.Api.Api.TestA">
+        <methods>
+          <include name="demoA"/>
+        </methods>
+      </class> <!-- com.Api.Api.TestA -->
+    </classes>
+  </test> <!-- TestX(failed) -->
+</suite> <!-- Failed suite [Suite] -->
