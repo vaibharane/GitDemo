@@ -18,6 +18,7 @@ public class Array {
 	}
 	System.out.println(x);
 	System.out.println("Change 1");
+	System.out.println("Change 2 by American guy");
 	
 	}
 }

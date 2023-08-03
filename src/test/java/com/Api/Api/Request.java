@@ -17,6 +17,8 @@ public class Request {
 		
 		int totalPages=response.jsonPath().getInt("total_pages");
 		Assert.assertEquals(totalPages, 2);
+		
+		System.out.println("Change by American guy");
 				
 	}
 	
