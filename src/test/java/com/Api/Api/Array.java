@@ -17,5 +17,7 @@ public class Array {
 		
 	}
 	System.out.println(x);
+	System.out.println("Change 1");
+	
 	}
 }
