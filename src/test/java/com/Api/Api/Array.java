@@ -21,6 +21,7 @@ public class Array {
 	System.out.println("Change 2 by American guy");
 	System.out.println("Change 3 by Asian guy");
 	System.out.println("Change 4 by Asian guy");
+	System.out.println("Change 7 by American guy");
 	
 	}
 }
